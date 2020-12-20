@@ -12,8 +12,12 @@ Originally written by Matthew W. Hoffman (mwh30@cam.ac.uk) and made available on
 The source files are verbatim from [linpack](http://www.netlib.org/linpack) (an
 older version is used as explained below).
 
-In this sense, the original pychyd project and this fork are fully independent
-and do not reuse any of the respective authors' code.
+This fork uses a brand-new, independently created setup.py file that apparently
+solves some issues experienced by the prototype. In this sense, the original
+pychyd project and this fork are independent and do not reuse the respective
+authors' code.
+
+Apparently, LINPACK is in public domain and so is this wrapper.
 
 Below are the remains of the original README.md file by Matthew W. Hoffman.
 
