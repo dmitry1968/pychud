@@ -6,6 +6,26 @@ rank one updates/downdates to the Cholesky factorization of some matrix. This is
 really just some minor modifications of the Fortran code so that it can be
 compiled using f2py.
 
+Originally written by Matthew W. Hoffman (mwh30@cam.ac.uk) and made available on
+[github](https://github.com/mwhoffman/pychud).
+
+The source files are verbatim from [linpack](http://www.netlib.org/linpack) (an
+older version is used as explained below).
+
+In this sense, the original pychyd project and this fork are fully independent
+and do not reuse any of the respective authors' code.
+
+Below are the remains of the original README.md file by Matthew W. Hoffman.
+
+
+original readme
+===============
+
+Python interface for the linpack `dchud` and `dchdd` functions for computing
+rank one updates/downdates to the Cholesky factorization of some matrix. This is
+really just some minor modifications of the Fortran code so that it can be
+compiled using f2py.
+
 Regardless, it can be built inplace using `python setup.py build_ext --inplace`
 which should create `pychud.so`. From here you can run `nosetests` and if
 everything passes just run
