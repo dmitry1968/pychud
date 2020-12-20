@@ -1,8 +1,8 @@
-import pychud
 import unittest
 import numpy as np
 import numpy.testing as nt
 import scipy.linalg
+import pychud
 
 
 def check_chol(R1, R2):
