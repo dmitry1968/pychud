@@ -1,4 +1,5 @@
 import pychud
+import unittest
 import numpy as np
 import numpy.testing as nt
 import scipy.linalg
@@ -16,7 +17,7 @@ def check_chol(R1, R2):
     nt.assert_allclose(np.dot(R1.T, R1), np.dot(R2.T, R2))
 
 
-class TestChol:
+class TestChol(unittest.TestCase):
     def setUp(self):
         p = 100
         A = np.random.rand(p, p)
